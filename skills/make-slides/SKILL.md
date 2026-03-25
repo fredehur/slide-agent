@@ -13,7 +13,7 @@ Turn any document into a self-contained HTML slide deck + speaking notes markdow
 
 You receive a document (principles, sections, headings, or structured text) and produce two files:
 - `output/slides.html` — self-contained HTML, keyboard navigable, with simple visuals
-- `output/speaking-notes.md` — presenter notes with translator guidance
+- `output/speaking-notes.md` — presenter speaking notes
 
 You write both files directly. No external tools required.
 
@@ -355,9 +355,9 @@ Write speaking notes for every slide using this format:
 
 ```markdown
 # Speaking Notes — TITLE
-### N slides | ~3 min per slide | Live translation in progress
+### N slides | ~3 min per slide
 
-> **Presenter guidance:** Speak slowly and clearly at all times. Pause after each bullet — the translator needs time. Never introduce ideas that are not on the slide. Read the headline first, then walk through each point.
+> **Presenter guidance:** Speak slowly and clearly at all times. Pause after each bullet. Never introduce ideas that are not on the slide. Read the headline first, then walk through each point.
 
 ---
 
